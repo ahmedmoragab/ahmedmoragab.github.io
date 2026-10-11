@@ -1,34 +1,47 @@
+```markdown
 ---
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Candidate | Computational Biology | Molecular Simulation | AI for Biology
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Institute of Bioinformatics and Structural Biology</p>
+    <p>National Tsing Hua University</p>
+    <p>Hsinchu, Taiwan</p>
+    <p><b>Email:</b> x@gapp.nthu.edu.tw &nbsp;|&nbsp; x = ahmedragab</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I'm **Ahmed M. Ragab**, an Egyptian researcher and fifth-year PhD candidate at the **Institute of Bioinformatics and Structural Biology, National Tsing Hua University (NTHU), Taiwan**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My journey into science has taken me much further than I could have imagined when I first entered university. I am the **first generation in my family to attend university and pursue graduate education**, and in 2019, I moved from Egypt to Taiwan after receiving a **full scholarship from Taiwan's Ministry of Education** to pursue my master's degree at NTHU. I later continued at the same institute for my PhD.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Since then, science has given me opportunities not only to grow as a researcher, but also to see more of the world. I have presented my research at international conferences and scientific meetings in **Taiwan, Hong Kong, Japan, and the United States**, experiences that have shaped both my scientific interests and my perspective on what it means to be part of an international research community.
+
+My research lies at the intersection of **computational biology, structural biology, and molecular biophysics**. My PhD work focuses on **–1 programmed ribosomal frameshifting (–1PRF)**, a translation mechanism exploited by viruses such as SARS-CoV-2. I combine **molecular dynamics simulations, molecular docking, bioinformatics, and experimental approaches** to understand the structural dynamics of viral RNA and explore small molecules that can modulate frameshifting efficiency.
+
+My path into computational research was not a straightforward one. I started with a background in **chemistry and zoology**, moved into **molecular biology and experimental research**, and eventually found my way into bioinformatics, molecular simulation, and programming. More recently, I have become increasingly interested in **machine learning and artificial intelligence** and how they can be used to understand complex biological systems and accelerate scientific discovery.
+
+Outside the lab, **I love running**. For me, running is another way of challenging myself, staying consistent, and discovering what I can do with enough persistence. I recently completed a personal challenge of **running 5 km every day for 30 consecutive days**, and my next goal is completing a **half marathon**.
+
+I created this website to document both sides of that journey: my **development as a scientist and my growth as a person**. Here you'll find my research, publications, writings, ongoing projects and challenges, achievements, and some of the things I learn along the way.
+
+You can also find me on [LinkedIn](https://www.linkedin.com/in/ahmedmoragab/) and [ORCID](https://orcid.org/0009-0006-5877-270X).
+```
