@@ -23,7 +23,7 @@ Today I started my 30-day running challenge.
 
 ## Reflection
 
-I tried to limit myself from continuing into the +10km as usual :D 
+I tried to limit myself from continuing into the 10km as usual!
 
 ## What I Learned
 
