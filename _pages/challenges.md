@@ -3,7 +3,7 @@ layout: page
 title: Challenges
 description: My personal challenges and progress.
 permalink: /challenges/
-nav: true
+nav: false
 nav_order: 5
 ---
 
