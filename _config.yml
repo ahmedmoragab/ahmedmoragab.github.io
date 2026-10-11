@@ -199,16 +199,16 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
   news:
     defaults:
       layout: post
     output: true
   projects:
     output: true
-  teachings:
+  challenges:
     output: true
+    permalink: /challenges/:name/
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
