@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: "30 Days of Running"
