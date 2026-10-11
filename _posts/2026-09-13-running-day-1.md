@@ -13,8 +13,6 @@ photo: /assets/img/challenges/running/day-01.jpg
 permalink: /challenges/30-days-of-running/day-01/
 ---
 
-# Day 1 — The Beginning
-
 Today, I started my 30-day running challenge!
 
 ![Day 1 — My first run]({{ page.photo | relative_url }})
