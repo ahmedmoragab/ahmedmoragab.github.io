@@ -1,221 +1,220 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Ahmed Mohamed Ragab",
+    "label": "PhD Candidate in Bioinformatics and Structural Biology",
+    "email": "ahmedragab@gapp.nthu.edu.tw",
+    "summary": "PhD candidate at the Institute of Bioinformatics and Structural Biology, National Tsing Hua University, with research experience in computational biology, molecular simulation, and structural biology.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Hsinchu",
+      "countryCode": "TW"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ahmedmoragab",
+        "url": "https://www.linkedin.com/in/ahmedmoragab/"
+      },
+      {
+        "network": "GitHub",
+        "username": "ahmedmoragab",
+        "url": "https://github.com/ahmedmoragab"
+      },
+      {
+        "network": "ORCID",
+        "username": "0009-0006-5877-270X",
+        "url": "https://orcid.org/0009-0006-5877-270X"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "Computational Biology Laboratory, National Tsing Hua University",
+      "position": "Predoctoral Researcher",
+      "location": "Hsinchu, Taiwan",
+      "startDate": "2022-02",
+      "highlights": [
+        "Molecular simulation studies of RNA structural dynamics and programmed ribosomal frameshifting.",
+        "Reassessment of molecular mechanisms underlying transcription initiation."
+      ]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
+      "name": "Computational Biology Laboratory, National Tsing Hua University",
+      "position": "Research Assistant",
+      "location": "Hsinchu, Taiwan",
+      "startDate": "2019-09",
+      "endDate": "2022-01",
+      "summary": "Computational methods for studying small-molecule modulation of programmed ribosomal frameshifting."
     },
     {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "X-ray Determination of the Structure of Matter Laboratory, Zewail City",
+      "position": "Research Assistant",
+      "location": "Giza, Egypt",
+      "startDate": "2019-06",
+      "endDate": "2019-08"
     },
     {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "Cancer Biology Research Lab, Cairo University",
+      "position": "Research Assistant",
+      "location": "Giza, Egypt",
+      "startDate": "2016-09",
+      "endDate": "2016-12",
+      "summary": "Research on Syndecan-1 as a potential therapeutic target in inflammatory breast cancer."
     },
     {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Genome Once Centre",
+      "position": "Lab Technician",
+      "location": "Giza, Egypt",
+      "startDate": "2015-05",
+      "endDate": "2018-07",
+      "highlights": [
+        "Cytogenetics (FISH), flow cytometry for immunophenotyping, DNA/RNA extraction, gel electrophoresis, conventional PCR, and RT-qPCR."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
+      "institution": "National Tsing Hua University",
+      "location": "Hsinchu, Taiwan",
+      "area": "Bioinformatics and Structural Biology",
       "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "startDate": "2022-02",
+      "highlights": ["Institute of Bioinformatics and Structural Biology", "Supervisor: Prof. Lee-Wei Yang"]
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
-      "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "National Tsing Hua University",
+      "location": "Hsinchu, Taiwan",
+      "area": "Bioinformatics and Structural Biology",
+      "studyType": "MSc",
+      "startDate": "2019-09",
+      "endDate": "2022-01",
+      "highlights": [
+        "Supervisors: Prof. Lee-Wei Yang and Prof. Jin-Der Wen",
+        "Thesis: Accurate and Efficient Chemical Similarity Search Tool and Contact-Distribution-Matching Method Jointly Identify FDA-Approved Drugs That Modulate SARS-CoV-2 -1 PRF and Suppress Its Replication"
+      ]
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
+      "institution": "Cairo University",
+      "location": "Giza, Egypt",
+      "area": "Zoology/Chemistry",
+      "studyType": "BSc",
+      "startDate": "2011-09",
+      "endDate": "2015-05"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Acid-Enriched Unfolding Intermediates of a pH-Sensitive Pseudoknot Enhances Ribosomal Frameshifting Efficiency",
+      "summary": "Ragab, A. M.; Ortiz, C. L. D.; Chang, K.-C.; Salawu, E. O.; Yang, C.-H.; Hsu, D. S.-T.; Chang, K.-Y.; Yang, L.-W.; Wen, J.-D.. Manuscript in preparation."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Drug Functional Site-Unknown Molecular Targets Exemplified by SARS-CoV-2 pseudoknot and ribosomal frameshifting-modulators",
+      "publisher": "bioRxiv",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.64898/2026.07.02.735960",
+      "summary": "Ragab, A. M.; Ortiz, C. L. D.; Huang, Y.-T.; Wang, J.-Z.; Wu, Y.-H.; Wen, J.-D.; Yang, L.-W.. Preprint, 2026.07.02.735960."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Drug repurposing and mechanistic dissection of −1 programmed ribosomal frameshifting in SARS-CoV-2",
+      "publisher": "Biophysical Journal",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1016/j.bpj.2025.11.1646",
+      "summary": "Sanad, A. M. R. M.; Chang, S.-Y.; Wen, J.-D.; Yang, L.-W.. Conference abstract, 125(4), 256a."
+    }
+  ],
+  "awards": [
+    {
+      "title": "NTHU–Emmanuel O. Salawu Scholarship for PhD Students",
+      "date": "2026"
+    },
+    {
+      "title": "Dr. Emmanuel O. Salawu Travel Grant (self-instigated, first awardee)",
+      "date": "2026"
+    },
+    {
+      "title": "NTHU Office of Academic Affairs Travel Grant",
+      "date": "2026"
+    },
+    {
+      "title": "NTHU Office of Global Affairs International Conference Travel Grant (second award)",
+      "date": "2026"
+    },
+    {
+      "title": "National Center for Theoretical Sciences Travel Grant",
+      "date": "2026"
+    },
+    {
+      "title": "NTHU Office of Global Affairs International Conference Travel Grant (first award)",
+      "date": "2026"
+    },
+    {
+      "title": "National Science and Technology Council (Taiwan) Travel Grant (second award)",
+      "date": "2025"
+    },
+    {
+      "title": "Biophysical Society Travel Grant",
+      "date": "2025"
+    },
+    {
+      "title": "NTHU College of Life Sciences and Medicine Travel Grant",
+      "date": "2025"
+    },
+    {
+      "title": "AWS Scholarship for Machine Learning Fundamentals at Udacity",
+      "date": "2025"
+    },
+    {
+      "title": "National Science and Technology Council (Taiwan) Travel Grant (first award)",
+      "date": "2024"
+    },
+    {
+      "title": "AWS Scholarship for AI Programming with Python at Udacity",
+      "date": "2024"
+    },
+    {
+      "title": "Second Best Poster Presentation Award, 8th Cross-Strait Symposium on Biomedical Sciences",
+      "date": "2023"
+    },
+    {
+      "title": "NTHU College of Life Sciences and Medicine Travel Grant",
+      "date": "2023"
+    },
+    {
+      "title": "First Best Presentation Award, Department Retreat, NTHU",
+      "date": "2023"
+    },
+    {
+      "title": "National Tsing Hua University International Students Scholarship for PhD",
+      "date": "2022"
+    },
+    {
+      "title": "Taiwan Government Ministry of Education Scholarship for Master's Degree",
+      "date": "2019"
+    },
+    {
+      "title": "National Tsing Hua University Scholarship for Master's Degree",
+      "date": "2019"
+    },
+    {
+      "title": "Faculty of Science Top-Student Award, Cairo University",
+      "date": "2015"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming",
+      "keywords": ["Python", "Bash", "R", "Tcl/Tk"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
+      "name": "Statistical analysis",
+      "keywords": ["R"]
     },
     {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    }
-  ],
-  "projects": [
+      "name": "Machine learning and scientific computing",
+      "keywords": ["NumPy", "Pandas", "PyTorch", "scikit-learn", "TensorFlow", "Keras"]
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "Molecular modeling and docking",
+      "keywords": ["Molecular dynamics simulations", "AutoDock Vina", "Amber", "VMD", "Chimera", "PyMOL"]
     }
   ]
 }

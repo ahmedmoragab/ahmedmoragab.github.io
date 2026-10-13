@@ -30,7 +30,7 @@ latest_posts:
 
 Hello! I'm **Ahmed M. Ragab**, an Egyptian researcher and fifth-year PhD candidate at the **Institute of Bioinformatics and Structural Biology, National Tsing Hua University (NTHU), Taiwan**.
 
-My journey into science has taken me much further than I could have imagined when I first entered university. I am the **first generation in my family to attend university and pursue graduate education**, and in 2019, I moved from Egypt to Taiwan after receiving a **full scholarship from Taiwan's Ministry of Education** to pursue my master's degree at NTHU. I later continued at the same institute for my PhD.
+My journey into science has taken me much further than I could have imagined when I first entered university. I am the **first generation in my family to attend university and pursue graduate education**. I earned my **BSc in Zoology/Chemistry at Cairo University in 2015**, and in 2019, I moved from Egypt to Taiwan after receiving a **full scholarship from Taiwan's Ministry of Education** to pursue my master's degree at NTHU. I completed my **MSc in Bioinformatics and Structural Biology in January 2022**, supervised by **Prof. Lee-Wei Yang and Prof. Jin-Der Wen**, and began my PhD at the same institute in **February 2022** under **Prof. Lee-Wei Yang**.
 
 Since then, science has given me opportunities not only to grow as a researcher, but also to see more of the world. I have presented my research at international conferences and scientific meetings in **Taiwan, Hong Kong, Japan, and the United States**, experiences that have shaped both my scientific interests and my perspective on what it means to be part of an international research community.
 

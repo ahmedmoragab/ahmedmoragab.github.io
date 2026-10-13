@@ -7,14 +7,14 @@ first_name: Ahmed
 middle_name: Mohamed
 last_name: Ragab
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can reach me at ahmedragab@gapp.nthu.edu.tw.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Ahmed Mohamed Ragab, PhD candidate in Bioinformatics and Structural Biology at National Tsing Hua University, Taiwan.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Ahmed Ragab, computational biology, structural biology, molecular simulation, bioinformatics
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -209,7 +209,6 @@ collections:
     output: true
     permalink: /challenges/:name/
 
-
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -354,8 +353,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Ragab, Sanad]
+  first_name: [Ahmed, Ahmed Mohamed, A. M., A. M. R. M.]
 
   style: apa
   locale: en

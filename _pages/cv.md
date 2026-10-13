@@ -1,11 +1,9 @@
 ---
 layout: cv
-permalink: /cv/
 title: CV
+permalink: /cv/
+description: Education, research experience, publications, presentations, and awards of Ahmed Mohamed Ragab.
 nav: true
-nav_order: 6
 cv_format: rendercv
-description: Academic background, research experience, and achievements.
-toc:
-  sidebar: left
+cv_pdf: /assets/pdf/Ahmed_Ragab_CV.pdf
 ---
