@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: My Story
 permalink: /
 subtitle: PhD Candidate | Computational Biology | Molecular Simulation | AI for Biology
 
