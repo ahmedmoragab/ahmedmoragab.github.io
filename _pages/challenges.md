@@ -13,6 +13,11 @@ I learn, and my personal growth.
 {% for challenge in site.challenges %}
 
 {% assign entries = site.posts | where: "challenge", challenge.challenge_id %}
+{% if challenge.carry_over_from %}
+{% assign previous_entries = site.posts | where: "challenge", challenge.carry_over_from %}
+{% assign entries = entries | concat: previous_entries %}
+{% endif %}
+{% assign entries = entries | where_exp: "entry", "entry.day <= challenge.target" %}
 {% assign completed = entries | where: "completed", true | size %}
 {% assign percent = completed | times: 100.0 | divided_by: challenge.target | round %}
 

@@ -15,6 +15,8 @@ My goal is to run at least 5 km every day for 30 consecutive days.
 
 I want to build consistency and discipline, and challenge myself to stay committed to a long-term goal.
 
+The first 30 days are complete! I'm continuing toward [50 Days of Running]({{ '/challenges/50-days-of-running/' | relative_url }}), with these runs counting toward the new goal.
+
 {% assign days = site.posts | where: "challenge", page.challenge_id | sort: "day" %}
 {% assign completed = days | where: "completed", true | size %}
 {% assign percent = completed | times: 100.0 | divided_by: page.target | round %}
