@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ahmed
 middle_name: Mohamed
 last_name: Ragab
-contact_note: >
-  You can reach me at ahmedragab@gapp.nthu.edu.tw.
+contact_note: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ahmed Mohamed Ragab, PhD candidate in Bioinformatics and Structural Biology at National Tsing Hua University, Taiwan.
 footer_text: >
