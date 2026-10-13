@@ -3,11 +3,9 @@ layout: page
 title: Challenges
 description: My personal challenges and progress.
 permalink: /challenges/
-nav: false
+nav: true
 nav_order: 5
 ---
-
-# My Challenges
 
 A living record of the goals I set, the things
 I learn, and my personal growth.
@@ -24,7 +22,9 @@ I learn, and my personal growth.
 
 **Progress: {{ completed }} / {{ challenge.target }} ({{ percent }}%)**
 
-<progress value="{{ completed }}" max="{{ challenge.target }}" style="width:100%;"></progress>
+<progress value="{{ completed }}" max="{{ challenge.target }}" aria-label="{{ challenge.title | escape }} progress" style="width:100%;"></progress>
+
+[View challenge and daily entries →]({{ challenge.url | relative_url }})
 
 {% else %}
 
