@@ -6,11 +6,11 @@ inline: false
 related_posts: false
 ---
 
-With immense gratitude, I'm happy to share that I am **one of two recipients of the NTHU Emmanuel O. Salawu Scholarship for the 2026–2027 academic year (115學年度)**, established through a donation from [Dr. Emmanuel Salawu](https://www.linkedin.com/in/emmanuelsalawu/).
+With immense gratitude, I'm happy to share that I am **one of two recipients of the NTHU Emmanuel O. Salawu Scholarship for the 2026–2027 academic year (115學年度)**, established through a donation from Dr. Emmanuel Salawu.
 
 **This scholarship gives me a chance to keep going at a time when continuing my PhD felt uncertain.**
 
-After losing my scholarship in March 2026, I faced difficult choices about how to finish my PhD in Taiwan while supporting my family. Taking on more work could delay graduation, while sending my family home after seven years abroad was something we could hardly afford.
+After losing my orignal NTHU scholarship in March 2026, I faced difficult choices about how to finish my PhD in Taiwan while supporting my family. Taking on more work could delay graduation, while sending my family home after seven years abroad was something we could hardly afford.
 
 The wonderful community at [Egypt Scholars Inc.](https://www.linkedin.com/company/egypt-scholars-inc-/), together with people I trust, helped crowdfund my tuition for the past semester. Their support gave me time to focus on my manuscript and share a preprint on bioRxiv. I am deeply grateful for that help, even as longer-term funding remained uncertain.
 
