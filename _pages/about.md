@@ -43,3 +43,10 @@ Outside the lab, **I love running**. For me, running is another way of challengi
 I created this website to document both sides of that journey: my **development as a scientist and my growth as a person**. Here you'll find my research, publications, writings, ongoing projects and challenges, achievements, and some of the things I learn along the way.
 
 You can also find me on [LinkedIn](https://www.linkedin.com/in/ahmedmoragab/) and [ORCID](https://orcid.org/0009-0006-5877-270X).
+
+## Visitors around the world
+
+<div style="max-width: 360px; margin: 1rem auto;">
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=vZWVBISoEXXUfPVHsWoSMz9Vvs9RagUE9s7DudgMgvY&cl=ffffff&w=a"></script>
+  <noscript>Enable JavaScript to view the visitor map.</noscript>
+</div>
