@@ -20,7 +20,7 @@ I learn, and my personal growth.
 
 {{ challenge.description }}
 
-**Progress: {{ completed }} / {{ challenge.target }} ({{ percent }}%)**
+**Days logged: {{ completed }} / {{ challenge.target }} ({{ percent }}%)**
 
 <progress value="{{ completed }}" max="{{ challenge.target }}" aria-label="{{ challenge.title | escape }} progress" style="width:100%;"></progress>
 

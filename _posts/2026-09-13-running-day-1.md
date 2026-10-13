@@ -40,3 +40,5 @@ energy for the long run.
 ---
 
 [← Back to 30 Days of Running]({{ '/challenges/30-days-of-running/' | relative_url }})
+
+[Day 2 →]({{ '/challenges/30-days-of-running/day-02/' | relative_url }})
