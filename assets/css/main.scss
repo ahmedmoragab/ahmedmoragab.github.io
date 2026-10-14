@@ -85,6 +85,10 @@ body > .container[role="main"] {
   color: var(--story-heading);
 }
 
+.post:has(.profile) > article > h2 {
+  text-transform: capitalize;
+}
+
 .post:has(.profile) > .post-header {
   padding: 1.25rem;
   margin: -0.5rem -0.5rem 2rem;
