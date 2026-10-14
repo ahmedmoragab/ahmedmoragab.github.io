@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A chance to keep going: the NTHU Emmanuel O. Salawu Scholarship"
+title: "Exciting News! I Won the NTHU Emmanuel O. Salawu Scholarship!"
 date: 2026-10-08 12:00:00+0800
 inline: false
 related_posts: false
