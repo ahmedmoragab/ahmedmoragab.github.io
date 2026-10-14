@@ -3,6 +3,7 @@ layout: page
 title: 30 Days of Running
 description: Running at least 5 km every day for 30 days.
 challenge_id: running-30-days
+start_date: 2026-09-13
 target: 30
 goal_km: 5
 permalink: /challenges/30-days-of-running/

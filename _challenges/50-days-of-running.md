@@ -3,6 +3,7 @@ layout: page
 title: 50 Days of Running
 description: Running at least 5 km every day for 50 days, building on my first 30 days.
 challenge_id: running-50-days
+start_date: 2026-10-13
 carry_over_from: running-30-days
 target: 50
 goal_km: 5
