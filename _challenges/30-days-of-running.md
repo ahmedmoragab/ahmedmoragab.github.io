@@ -17,7 +17,7 @@ I want to build consistency and discipline, and challenge myself to stay committ
 
 The first 30 days are complete! I'm continuing toward [50 Days of Running]({{ '/challenges/50-days-of-running/' | relative_url }}), with these runs counting toward the new goal.
 
-{% assign days = site.posts | where: "challenge", page.challenge_id | sort: "day" %}
+{% assign days = site.posts | where: "challenge", page.challenge_id | sort: "day" | reverse %}
 {% assign completed = days | where: "completed", true | size %}
 {% assign percent = completed | times: 100.0 | divided_by: page.target | round %}
 {% assign goal_days = 0 %}
@@ -35,7 +35,9 @@ The first 30 days are complete! I'm continuing toward [50 Days of Running]({{ '/
 
 **Total distance:** {{ total_distance | round: 2 }} km · **{{ page.goal_km }} km goal met:** {{ goal_days }} of {{ days.size }} recorded days.
 
-<progress value="{{ completed }}" max="{{ page.target }}" aria-label="Running days logged" style="width:100%;"></progress>
+<div role="progressbar" aria-label="{{ page.title | escape }} progress" aria-valuenow="{{ percent | at_most: 100 }}" aria-valuemin="0" aria-valuemax="100" aria-valuetext="{{ completed }} of {{ page.target }} days completed" style="width: 100%; height: 20px; background: #e2e8f0; border-radius: 10px; overflow: hidden;">
+  <div style="width: {{ percent | at_most: 100 }}%; height: 100%; background: #0969da;"></div>
+</div>
 
 ## Choose a Day
 

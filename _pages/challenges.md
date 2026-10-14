@@ -27,7 +27,9 @@ I learn, and my personal growth.
 
 **Days logged: {{ completed }} / {{ challenge.target }} ({{ percent }}%)**
 
-<progress value="{{ completed }}" max="{{ challenge.target }}" aria-label="{{ challenge.title | escape }} progress" style="width:100%;"></progress>
+<div role="progressbar" aria-label="{{ challenge.title | escape }} progress" aria-valuenow="{{ percent | at_most: 100 }}" aria-valuemin="0" aria-valuemax="100" aria-valuetext="{{ completed }} of {{ challenge.target }} days completed" style="width: 100%; height: 20px; background: #e2e8f0; border-radius: 10px; overflow: hidden;">
+  <div style="width: {{ percent | at_most: 100 }}%; height: 100%; background: #0969da;"></div>
+</div>
 
 [View challenge and daily entries →]({{ challenge.url | relative_url }})
 
