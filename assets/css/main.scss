@@ -1,0 +1,120 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+// Personal palette: a quiet dawn, with clear reading surfaces in both modes.
+:root {
+  --global-theme-color: #175b96;
+  --global-hover-color: #0b4377;
+  --global-text-color: #233347;
+  --global-text-color-light: #596b7e;
+  --global-bg-color: #ffffff;
+  --global-divider-color: #dce5ee;
+  --story-heading: #173b60;
+  --story-surface: #ffffff;
+  --story-shadow: 0 12px 48px rgba(38, 68, 100, 0.07);
+  --story-sky: linear-gradient(145deg, #e5eff8 0%, #f1f5f8 45%, #fff7ea 100%);
+  --story-glow: radial-gradient(ellipse at 85% 0%, rgba(255, 213, 150, 0.32), transparent 70%);
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #142235;
+  --global-card-bg-color: #192c42;
+  --global-text-color: #e1eaf4;
+  --global-text-color-light: #a9bbce;
+  --global-theme-color: #86c5ff;
+  --global-hover-color: #b5dcff;
+  --global-divider-color: #30455d;
+  --global-code-bg-color: #1d3047;
+  --story-heading: #c8e3ff;
+  --story-surface: #142235;
+  --story-shadow: 0 12px 48px rgba(0, 0, 0, 0.2);
+  --story-sky: linear-gradient(145deg, #0b1729 0%, #11263d 55%, #262b38 100%);
+  --story-glow: radial-gradient(ellipse at 85% 0%, rgba(216, 161, 95, 0.13), transparent 70%);
+}
+
+body {
+  background: var(--story-sky);
+  background-attachment: fixed;
+}
+
+body > .container[role="main"] {
+  width: calc(100% - 2rem);
+  padding: clamp(1.25rem, 3.5vw, 3rem);
+  margin-bottom: 3rem;
+  background: var(--story-surface);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 20px;
+  box-shadow: var(--story-shadow);
+}
+
+[role="main"] h1,
+[role="main"] h2,
+[role="main"] h3 {
+  color: var(--story-heading);
+}
+
+.post:has(.profile) > .post-header {
+  padding: 1.25rem;
+  margin: -0.5rem -0.5rem 2rem;
+  border-radius: 14px;
+  background: var(--story-glow);
+}
+
+@media (max-width: 575px) {
+  body > .container[role="main"] {
+    width: calc(100% - 1rem);
+    padding: 1.1rem;
+    border-radius: 14px;
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+  }
+
+  body > .container[role="main"] {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .post:has(.profile) > .post-header {
+    background: none;
+  }
+}
