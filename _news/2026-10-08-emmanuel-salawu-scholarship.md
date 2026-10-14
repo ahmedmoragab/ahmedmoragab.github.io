@@ -4,6 +4,7 @@ title: "A chance to keep going: the NTHU Emmanuel O. Salawu Scholarship"
 date: 2026-10-08 12:00:00+0800
 inline: false
 related_posts: false
+topics: [scholarships, phd-journey, community]
 ---
 
 With immense gratitude, I'm happy to share that I am **one of two recipients of the NTHU Emmanuel O. Salawu Scholarship for the 2026–2027 academic year (115學年度)**, established through a donation from Dr. Emmanuel Salawu.

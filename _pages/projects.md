@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: My PhD research in computational biology, RNA structural dynamics, and transcription initiation at National Tsing Hua University.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [research]
 horizontal: false
 ---
