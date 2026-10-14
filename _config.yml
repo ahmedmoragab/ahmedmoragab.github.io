@@ -13,6 +13,8 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  <span id="site-visitor-count" hidden title="Estimated unique visits across the site within GoatCounter's eight-hour sessions; updates may be delayed."> · Unique visits: <span id="site-visitor-number"></span></span>
+  <script defer src="/assets/js/visitor-counter.js"></script>
 keywords: Ahmed Ragab, computational biology, structural biology, molecular simulation, bioinformatics
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
