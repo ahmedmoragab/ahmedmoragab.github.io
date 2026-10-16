@@ -42,6 +42,8 @@ The first 30 days are complete! I'm continuing toward [50 Days of Running]({{ '/
 
 ## Choose a Day
 
+[Explore the live analysis of all my runs →]({{ '/challenges/running-progress/' | relative_url }})
+
 {% for day in days %}
 [Day {{ day.day }}]({{ day.url | relative_url }}){% unless forloop.last %} · {% endunless %}
 {% endfor %}

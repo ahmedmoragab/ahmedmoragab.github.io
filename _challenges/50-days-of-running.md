@@ -11,10 +11,6 @@ permalink: /challenges/50-days-of-running/
 nav: false
 ---
 
-After completing [30 Days of Running]({{ '/challenges/30-days-of-running/' | relative_url }}), I'm extending the challenge to **50 consecutive days of running at least 5 km**.
-
-The first 30 days count toward this goal. Day 31 continues the same running streak, and the journal below brings both parts together.
-
 {% assign current_days = site.posts | where: "challenge", page.challenge_id %}
 {% assign previous_days = site.posts | where: "challenge", page.carry_over_from %}
 {% assign days = current_days | concat: previous_days | where_exp: "day", "day.day <= page.target" | sort: "day" | reverse %}
@@ -23,23 +19,33 @@ The first 30 days count toward this goal. Day 31 continues the same running stre
 {% assign goal_days = 0 %}
 {% assign total_distance = 0 %}
 {% for day in days %}
+{% if day.completed %}
 {% assign total_distance = total_distance | plus: day.distance_km %}
 {% if day.distance_km >= page.goal_km %}
-    {% assign goal_days = goal_days | plus: 1 %}
+{% assign goal_days = goal_days | plus: 1 %}
+{% endif %}
 {% endif %}
 {% endfor %}
 
-## My Progress
+## Progress So Far
 
 **{{ completed }} of {{ page.target }} days logged — {{ percent }}%**
 
-**Total distance:** {{ total_distance | round: 2 }} km · **{{ page.goal_km }} km goal met:** {{ goal_days }} of {{ days.size }} recorded days.
+**Total distance:** {{ total_distance | round: 2 }} km · **{{ page.goal_km }} km goal met:** {{ goal_days }} of {{ completed }} completed runs.
 
 <div role="progressbar" aria-label="{{ page.title | escape }} progress" aria-valuenow="{{ percent | at_most: 100 }}" aria-valuemin="0" aria-valuemax="100" aria-valuetext="{{ completed }} of {{ page.target }} days completed" style="width: 100%; height: 20px; background: #e2e8f0; border-radius: 10px; overflow: hidden;">
   <div style="width: {{ percent | at_most: 100 }}%; height: 100%; background: #0969da;"></div>
 </div>
 
+[See the live running analysis →]({{ '/challenges/running-progress/' | relative_url }})
+
+After completing [30 Days of Running]({{ '/challenges/30-days-of-running/' | relative_url }}), I'm extending the challenge to **50 consecutive days of running at least 5 km**.
+
+The first 30 days count toward this goal. Day 31 continues the same running streak, and the journal below brings both parts together.
+
 ## Choose a Day
+
+[Explore the live analysis of all my runs →]({{ '/challenges/running-progress/' | relative_url }})
 
 {% for day in days %}
 [Day {{ day.day }}]({{ day.url | relative_url }}){% unless forloop.last %} · {% endunless %}
