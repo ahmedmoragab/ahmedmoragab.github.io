@@ -11,6 +11,14 @@ Here I share the challenges I'm taking on to build new skills, stay consistent, 
 {% assign challenges = site.challenges | sort: "start_date" | reverse %}
 {% for challenge in challenges %}
 
+{% if challenge.goal_distance_km %}
+
+## [{{ challenge.title }}]({{ challenge.url | relative_url }})
+
+**Goal:** Run your first race of {{ challenge.goal_distance_km }} km · **Status:** {% if challenge.completed %}Completed{% else %}In progress{% endif %}
+
+{% else %}
+
 {% assign entries = site.posts | where: "challenge", challenge.challenge_id %}
 {% if challenge.carry_over_from %}
 {% assign previous_entries = site.posts | where: "challenge", challenge.carry_over_from %}
@@ -27,6 +35,8 @@ Here I share the challenges I'm taking on to build new skills, stay consistent, 
 <div role="progressbar" aria-label="{{ challenge.title | escape }} progress" aria-valuenow="{{ percent | at_most: 100 }}" aria-valuemin="0" aria-valuemax="100" aria-valuetext="{{ completed }} of {{ challenge.target }} days completed" style="width: 100%; height: 20px; background: #e2e8f0; border-radius: 10px; overflow: hidden;">
   <div style="width: {{ percent | at_most: 100 }}%; height: 100%; background: #0969da;"></div>
 </div>
+
+{% endif %}
 
 {% else %}
 
