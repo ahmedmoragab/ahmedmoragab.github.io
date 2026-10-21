@@ -2,7 +2,10 @@
 cv:
   name: Ahmed Mohamed Ragab
   label: PhD Candidate in Bioinformatics and Structural Biology
-  email: ahmedragab@gapp.nthu.edu.tw
+  custom_connections:
+    - fontawesome_icon: envelope
+      placeholder: "X@gapp.nthu.edu.tw (X = ahmedragab)"
+      url: null
   location: Hsinchu, Taiwan
   summary: PhD candidate at the Institute of Bioinformatics and Structural Biology,
     National Tsing Hua University, with research experience in computational biology,

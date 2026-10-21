@@ -113,4 +113,4 @@ Reading is another part of my life that I enjoy, especially books about personal
 
 I created this website to share my work and some of the life around it. Alongside my research, publications, and projects, you'll find personal writing, challenges, and things I'm learning as I go.
 
-For research inquiries or collaborations, [email me](mailto:ahmedragab@gapp.nthu.edu.tw) or connect with me on [LinkedIn](https://www.linkedin.com/in/ahmedmoragab/).
+For research inquiries or collaborations, you can reach me at **X@gapp.nthu.edu.tw** (X = ahmedragab), or connect with me on [LinkedIn](https://www.linkedin.com/in/ahmedmoragab/).
