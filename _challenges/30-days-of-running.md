@@ -6,6 +6,8 @@ challenge_id: running-30-days
 start_date: 2026-09-13
 target: 30
 goal_km: 5
+completed: true
+completed_date: 2026-10-12
 permalink: /challenges/30-days-of-running/
 nav: false
 ---
@@ -35,6 +37,10 @@ The first 30 days are complete! I'm continuing toward [50 Days of Running]({{ '/
 **{{ completed }} of {{ page.target }} days logged — {{ percent }}%**
 
 **Total distance:** {{ total_distance | round: 2 }} km · **{{ page.goal_km }} km goal met:** {{ goal_days }} of {{ days.size }} recorded days.
+
+{% if page.completed %}
+**Status:** Done! Completed on {{ page.completed_date | date: "%B %d, %Y" }}.
+{% endif %}
 
 <div role="progressbar" aria-label="{{ page.title | escape }} progress" aria-valuenow="{{ percent | at_most: 100 }}" aria-valuemin="0" aria-valuemax="100" aria-valuetext="{{ completed }} of {{ page.target }} days completed" style="width: 100%; height: 20px; background: #e2e8f0; border-radius: 10px; overflow: hidden;">
   <div style="width: {{ percent | at_most: 100 }}%; height: 100%; background: #0969da;"></div>
