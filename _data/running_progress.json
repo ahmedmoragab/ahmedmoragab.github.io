@@ -1,7 +1,7 @@
 {
   "first_seven_kmh": 7.96,
-  "last_seven_kmh": 8.61,
-  "change_percent": 8.1,
+  "last_seven_kmh": 8.44,
+  "change_percent": 6.0,
   "runs": [
     {
       "day": 1,
@@ -354,6 +354,204 @@
       "speed_kmh": 9.91,
       "partial": false,
       "url": "/challenges/50-days-of-running/day-32/"
+    },
+    {
+      "day": 33,
+      "date": "2026-10-15",
+      "distance_km": 5.0,
+      "recorded_distance_km": 5.0,
+      "moving_time": "34:46",
+      "pace": "6:56",
+      "speed_kmh": 8.63,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-33/"
+    },
+    {
+      "day": 34,
+      "date": "2026-10-16",
+      "distance_km": 5.0,
+      "recorded_distance_km": 5.0,
+      "moving_time": "33:40",
+      "pace": "6:44",
+      "speed_kmh": 8.91,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-34/"
+    },
+    {
+      "day": 35,
+      "date": "2026-10-17",
+      "distance_km": 5.0,
+      "recorded_distance_km": 5.0,
+      "moving_time": "37:34",
+      "pace": "7:30",
+      "speed_kmh": 7.99,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-35/"
+    },
+    {
+      "day": 36,
+      "date": "2026-10-18",
+      "distance_km": 5.03,
+      "recorded_distance_km": 5.03,
+      "moving_time": "40:36",
+      "pace": "8:04",
+      "speed_kmh": 7.43,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-36/"
+    },
+    {
+      "day": 37,
+      "date": "2026-10-19",
+      "distance_km": 5.1,
+      "recorded_distance_km": 5.1,
+      "moving_time": "35:31",
+      "pace": "6:58",
+      "speed_kmh": 8.62,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-37/"
+    },
+    {
+      "day": 38,
+      "date": "2026-10-20",
+      "distance_km": 5.0,
+      "recorded_distance_km": 5.0,
+      "moving_time": "34:45",
+      "pace": "6:57",
+      "speed_kmh": 8.63,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-38/"
+    },
+    {
+      "day": 39,
+      "date": "2026-10-21",
+      "distance_km": 5.35,
+      "recorded_distance_km": 5.35,
+      "moving_time": "39:10",
+      "pace": "7:19",
+      "speed_kmh": 8.2,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-39/"
+    },
+    {
+      "day": 40,
+      "date": "2026-10-22",
+      "distance_km": 5.17,
+      "recorded_distance_km": 5.17,
+      "moving_time": "34:36",
+      "pace": "6:42",
+      "speed_kmh": 8.97,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-40/"
+    },
+    {
+      "day": 41,
+      "date": "2026-10-23",
+      "distance_km": 5.0,
+      "recorded_distance_km": 5.0,
+      "moving_time": "36:28",
+      "pace": "7:17",
+      "speed_kmh": 8.23,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-41/"
+    },
+    {
+      "day": 42,
+      "date": "2026-10-24",
+      "distance_km": 5.09,
+      "recorded_distance_km": 5.09,
+      "moving_time": "36:05",
+      "pace": "7:05",
+      "speed_kmh": 8.46,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-42/"
+    },
+    {
+      "day": 43,
+      "date": "2026-10-25",
+      "distance_km": 5.0,
+      "recorded_distance_km": 5.0,
+      "moving_time": "33:17",
+      "pace": "6:39",
+      "speed_kmh": 9.01,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-43/"
+    },
+    {
+      "day": 44,
+      "date": "2026-10-26",
+      "distance_km": 5.03,
+      "recorded_distance_km": 5.03,
+      "moving_time": "36:13",
+      "pace": "7:11",
+      "speed_kmh": 8.33,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-44/"
+    },
+    {
+      "day": 45,
+      "date": "2026-10-27",
+      "distance_km": 5.02,
+      "recorded_distance_km": 5.02,
+      "moving_time": "35:39",
+      "pace": "7:06",
+      "speed_kmh": 8.45,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-45/"
+    },
+    {
+      "day": 46,
+      "date": "2026-10-28",
+      "distance_km": 5.04,
+      "recorded_distance_km": 5.04,
+      "moving_time": "37:17",
+      "pace": "7:23",
+      "speed_kmh": 8.11,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-46/"
+    },
+    {
+      "day": 47,
+      "date": "2026-10-29",
+      "distance_km": 5.0,
+      "recorded_distance_km": 5.0,
+      "moving_time": "31:49",
+      "pace": "6:22",
+      "speed_kmh": 9.43,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-47/"
+    },
+    {
+      "day": 48,
+      "date": "2026-10-30",
+      "distance_km": 5.04,
+      "recorded_distance_km": 5.04,
+      "moving_time": "36:28",
+      "pace": "7:14",
+      "speed_kmh": 8.29,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-48/"
+    },
+    {
+      "day": 49,
+      "date": "2026-10-31",
+      "distance_km": 5.01,
+      "recorded_distance_km": 5.01,
+      "moving_time": "35:41",
+      "pace": "7:07",
+      "speed_kmh": 8.42,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-49/"
+    },
+    {
+      "day": 50,
+      "date": "2026-11-01",
+      "distance_km": 5.27,
+      "recorded_distance_km": 5.27,
+      "moving_time": "39:24",
+      "pace": "7:28",
+      "speed_kmh": 8.03,
+      "partial": false,
+      "url": "/challenges/50-days-of-running/day-50/"
     }
   ]
 }

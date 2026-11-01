@@ -65,13 +65,13 @@ After the first 30 days, I extended the challenge to **50 days**, keeping those 
 
 My first seven runs averaged **{{ progress.first_seven_kmh }} km/h**. My latest seven averaged **{{ progress.last_seven_kmh }} km/h**—an increase of **{{ progress.change_percent }}%**.
 
-![Average speed across my first 32 runs, with a trailing seven-run average]({{ '/assets/img/challenges/running/progress-days-01-32.svg' | relative_url }})
+![Average speed across all 50 runs, with a trailing seven-run average]({{ '/assets/img/challenges/running/progress-days-01-50.svg' | relative_url }})
 
 The thick blue line shows the average of the latest seven complete recordings. Day 24 is marked separately because the app captured only 3.50 km of my actual 8.50 km run; it is excluded from the averages.
 
 There are plenty of ups and downs here. These were different runs, in different conditions, and the chart doesn't prove that consistency alone caused the improvement. But it does give me something encouraging to look at beyond one fast day.
 
-[Explore the chart and all 32 runs →]({{ '/challenges/running-progress/' | relative_url }})
+[Explore the chart and all 50 runs →]({{ '/challenges/running-progress/' | relative_url }})
 
 ## What I Would Share with Someone Starting Their Own Challenge
 
