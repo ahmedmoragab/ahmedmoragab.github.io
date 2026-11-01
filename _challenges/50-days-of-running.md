@@ -7,6 +7,8 @@ start_date: 2026-10-13
 carry_over_from: running-30-days
 target: 50
 goal_km: 5
+completed: true
+completed_date: 2026-11-01
 permalink: /challenges/50-days-of-running/
 nav: false
 ---
@@ -33,6 +35,10 @@ nav: false
 
 **Total distance:** {{ total_distance | round: 2 }} km · **{{ page.goal_km }} km goal met:** {{ goal_days }} of {{ completed }} completed runs.
 
+{% if page.completed %}
+**Status:** Done! Completed on {{ page.completed_date | date: "%B %d, %Y" }}.
+{% endif %}
+
 <div role="progressbar" aria-label="{{ page.title | escape }} progress" aria-valuenow="{{ percent | at_most: 100 }}" aria-valuemin="0" aria-valuemax="100" aria-valuetext="{{ completed }} of {{ page.target }} days completed" style="width: 100%; height: 20px; background: #e2e8f0; border-radius: 10px; overflow: hidden;">
   <div style="width: {{ percent | at_most: 100 }}%; height: 100%; background: #0969da;"></div>
 </div>
@@ -42,6 +48,10 @@ nav: false
 After completing [30 Days of Running]({{ '/challenges/30-days-of-running/' | relative_url }}), I'm extending the challenge to **50 consecutive days of running at least 5 km**.
 
 The first 30 days count toward this goal. Day 31 continues the same running streak, and the journal below brings both parts together.
+
+All 50 days are complete. I kept the streak going through Day 50, meeting the 5 km goal every day.
+
+![Animated photo journal of all 50 running days]({{ '/assets/img/challenges/running/50-days-running.gif' | relative_url }})
 
 ## Choose a Day
 

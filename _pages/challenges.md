@@ -30,7 +30,7 @@ Here I share the challenges I'm taking on to build new skills, stay consistent, 
 
 ## [{{ challenge.title }}]({{ challenge.url | relative_url }})
 
-**{{ percent }}% complete** · {{ completed }} / {{ challenge.target }} days
+**{{ percent }}% complete** · {{ completed }} / {{ challenge.target }} days · **Status:** {% if challenge.completed %}Done!{% else %}In progress{% endif %}
 
 <div role="progressbar" aria-label="{{ challenge.title | escape }} progress" aria-valuenow="{{ percent | at_most: 100 }}" aria-valuemin="0" aria-valuemax="100" aria-valuetext="{{ completed }} of {{ challenge.target }} days completed" style="width: 100%; height: 20px; background: #e2e8f0; border-radius: 10px; overflow: hidden;">
   <div style="width: {{ percent | at_most: 100 }}%; height: 100%; background: #0969da;"></div>
