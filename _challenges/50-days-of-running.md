@@ -4,6 +4,7 @@ title: 50 Days of Running
 description: Running at least 5 km every day for 50 days, building on my first 30 days.
 challenge_id: running-50-days
 start_date: 2026-10-13
+consistency_start_date: 2026-09-13
 carry_over_from: running-30-days
 target: 50
 goal_km: 5
@@ -18,6 +19,13 @@ nav: false
 {% assign days = current_days | concat: previous_days | where_exp: "day", "day.day <= page.target" | sort: "day" | reverse %}
 {% assign completed = days | where: "completed", true | size %}
 {% assign percent = completed | times: 100.0 | divided_by: page.target | round %}
+{% assign first_run = page.consistency_start_date | default: page.start_date %}
+{% assign latest_run = days.first.date %}
+{% assign first_seconds = first_run | date: "%s" %}
+{% assign latest_seconds = latest_run | date: "%s" %}
+{% assign elapsed_seconds = latest_seconds | minus: first_seconds %}
+{% assign elapsed_days = elapsed_seconds | divided_by: 86400 | plus: 1 %}
+{% assign consistency = completed | times: 100.0 | divided_by: elapsed_days | round: 2 %}
 {% assign goal_days = 0 %}
 {% assign total_distance = 0 %}
 {% for day in days %}
@@ -32,6 +40,10 @@ nav: false
 ## Progress So Far
 
 **{{ completed }} of {{ page.target }} days logged — {{ percent }}%**
+
+**Achievement:** {{ completed }} of {{ page.target }} planned runs ({{ percent }}%) · **Consistency:** {{ completed }} of {{ elapsed_days }} elapsed days ({{ consistency }}%)
+
+Achievement measures how much of the goal is complete; consistency measures how regularly I showed up across the elapsed time.
 
 **Total distance:** {{ total_distance | round: 2 }} km · **{{ page.goal_km }} km goal met:** {{ goal_days }} of {{ completed }} completed runs.
 
