@@ -24,12 +24,16 @@ Here I share the challenges I'm taking on to build new skills, stay consistent, 
 {% assign previous_entries = site.posts | where: "challenge", challenge.carry_over_from %}
 {% assign entries = entries | concat: previous_entries %}
 {% endif %}
+{% if challenge.additional_carry_over_from %}
+{% assign additional_entries = site.posts | where: "challenge", challenge.additional_carry_over_from %}
+{% assign entries = entries | concat: additional_entries %}
+{% endif %}
 {% assign entries = entries | where_exp: "entry", "entry.day <= challenge.target" %}
 {% assign entries = entries | sort: "date" | reverse %}
 {% assign completed = entries | where: "completed", true | size %}
 {% assign percent = completed | times: 100.0 | divided_by: challenge.target | round %}
 {% assign first_entry = challenge.consistency_start_date | default: challenge.start_date %}
-{% assign latest_entry = entries.first.date %}
+{% assign latest_entry = challenge.consistency_end_date | default: entries.first.date %}
 {% assign first_seconds = first_entry | date: "%s" %}
 {% assign latest_seconds = latest_entry | date: "%s" %}
 {% assign elapsed_seconds = latest_seconds | minus: first_seconds %}
