@@ -5,7 +5,7 @@ description: Running at least 5 km every day for 100 days, building on my comple
 challenge_id: running-100-days
 start_date: 2026-11-02
 consistency_start_date: 2026-09-13
-consistency_end_date: 2026-11-02
+consistency_end_date: 2026-11-03
 carry_over_from: running-50-days
 additional_carry_over_from: running-30-days
 target: 100
@@ -49,7 +49,7 @@ nav: false
 
 Achievement measures progress toward the target; consistency measures how regularly I showed up over time. The 50 completed runs from my previous challenge count toward this one.
 
-**Status:** In progress · **Today:** Day 51 is a recovery day with no run logged.
+**Status:** In progress · **Day 51:** Recovery day on November 2, followed by Run 51 on November 3.
 
 <div role="progressbar" aria-label="{{ page.title | escape }} achievement" aria-valuenow="{{ achievement | at_most: 100 }}" aria-valuemin="0" aria-valuemax="100" aria-valuetext="{{ completed }} of {{ page.target }} planned runs completed" style="width: 100%; height: 20px; background: #e2e8f0; border-radius: 10px; overflow: hidden;">
   <div style="width: {{ achievement | at_most: 100 }}%; height: 100%; background: #0969da;"></div>
