@@ -68,6 +68,20 @@ The 21.1 km finish was the last step in a longer build, not a one-day jump. From
   <text x="16" y="180" text-anchor="middle" fill="#596b7e" font-size="13" transform="rotate(-90 16 180)">Distance (km)</text>
 </svg>
 
+## Run screenshots
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+  {% for run in runs %}
+  {% assign screenshot = "/assets/img/challenges/running/long-runs/" | append: run.date | append: ".jpg" %}
+  <figure style="margin: 0;">
+    <a href="{% if run.url %}{{ run.url | relative_url }}{% else %}{{ screenshot | relative_url }}{% endif %}">
+      <img src="{{ screenshot | relative_url }}" alt="{{ run.date | date: '%B %-d, %Y' }}: {{ run.title }} — {{ run.distance_km }} km" loading="lazy" style="width: 100%; height: auto; border-radius: 0.5rem;">
+    </a>
+    <figcaption style="font-size: 0.9rem; margin-top: 0.35rem;">{{ run.date | date: "%b %-d, %Y" }} · {{ run.distance_km }} km</figcaption>
+  </figure>
+  {% endfor %}
+</div>
+
 The same build continues toward [my first full marathon]({{ '/challenges/first-full-marathon/' | relative_url }}).
 
 [← Back to all challenges]({{ '/challenges/' | relative_url }})
