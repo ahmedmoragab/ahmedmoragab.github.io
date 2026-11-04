@@ -1,14 +1,15 @@
 ---
 layout: page
 title: Running Progress
-description: A live summary of my runs across the 30-day and 50-day running challenges.
+description: A live summary of my runs across the 30-day, 50-day, and 100-day running challenges.
 permalink: /challenges/running-progress/
 nav: false
 ---
 
 {% assign first_challenge_runs = site.posts | where: "challenge", "running-30-days" %}
 {% assign second_challenge_runs = site.posts | where: "challenge", "running-50-days" %}
-{% assign runs = first_challenge_runs | concat: second_challenge_runs | where: "completed", true | sort: "day" %}
+{% assign third_challenge_runs = site.posts | where: "challenge", "running-100-days" %}
+{% assign runs = first_challenge_runs | concat: second_challenge_runs | concat: third_challenge_runs | where: "completed", true | sort: "date" %}
 {% assign pace_runs = runs | where_exp: "run", "run.recorded_distance_km == nil" | where_exp: "run", "run.moving_time != nil" | where_exp: "run", "run.distance_km > 0" %}
 {% assign total_distance = 0 %}
 {% assign goal_days = 0 %}
