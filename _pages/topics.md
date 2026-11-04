@@ -5,7 +5,7 @@ permalink: /blog/topics/
 nav: false
 ---
 
-{% assign entries = site.posts | concat: site.news | where_exp: "entry", "entry.published != false" | sort: "date" | reverse %}
+{% assign entries = site.posts | where_exp: "entry", "entry.published != false" | where_exp: "entry", "entry.challenge == nil or entry.blog == true" | concat: site.news | sort: "date" | reverse %}
 {% assign tags = entries | map: "tags" | join: "," | split: "," %}
 {% assign categories = entries | map: "categories" | join: "," | split: "," %}
 {% assign news_topics = entries | map: "topics" | join: "," | split: "," %}

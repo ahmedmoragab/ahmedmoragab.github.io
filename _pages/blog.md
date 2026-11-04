@@ -4,16 +4,6 @@ permalink: /blog/
 title: Blog
 nav: true
 nav_order: 1
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
 ---
 
 <div class="post">
@@ -29,7 +19,7 @@ pagination:
   </div>
   {% endif %}
 
-{% assign topic_entries = site.posts | concat: site.news | where_exp: "entry", "entry.published != false" %}
+{% assign topic_entries = site.posts | where_exp: "entry", "entry.published != false" | where_exp: "entry", "entry.challenge == nil or entry.blog == true" | concat: site.news %}
 {% assign entry_tags = topic_entries | map: "tags" | join: "," | split: "," %}
 {% assign entry_categories = topic_entries | map: "categories" | join: "," | split: "," %}
 {% assign news_topics = topic_entries | map: "topics" | join: "," | split: "," %}
@@ -46,7 +36,7 @@ pagination:
 </div>
 {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site.posts | where: "featured", "true" | where_exp: "post", "post.challenge == nil or post.blog == true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -93,11 +83,8 @@ pagination:
 
   <ul class="post-list">
 
-    {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
-    {% else %}
-      {% assign postlist = site.posts %}
-    {% endif %}
+    {% assign postlist = site.posts | where_exp: "post", "post.published != false" | where_exp: "post", "post.challenge == nil or post.blog == true" %}
+    {% assign postlist = postlist | sort: "date" | reverse %}
 
     {% for post in postlist %}
 
