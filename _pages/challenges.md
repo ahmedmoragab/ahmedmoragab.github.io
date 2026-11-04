@@ -13,9 +13,22 @@ Here I share the challenges I'm taking on to build new skills, stay consistent, 
 
 {% if challenge.goal_distance_km %}
 
+{% assign build_runs = site.data.long_runs %}
+{% assign longest = 0 %}
+{% for run in build_runs %}
+{% if run.distance_km > longest %}
+{% assign longest = run.distance_km %}
+{% endif %}
+{% endfor %}
+{% assign percent = longest | times: 100.0 | divided_by: challenge.goal_distance_km | round: 1 %}
+
 ## [{{ challenge.title }}]({{ challenge.url | relative_url }})
 
-**Goal:** Run your first race of {{ challenge.goal_distance_km }} km · **Status:** {% if challenge.completed %}Completed{% else %}In progress{% endif %}
+**Goal:** {{ challenge.goal_distance_km }} km in a single run · **Longest so far:** {{ longest }} km ({{ percent | at_most: 100 }}%) · **Status:** {% if challenge.completed %}Completed{% else %}In progress{% endif %}
+
+<div role="progressbar" aria-label="{{ challenge.title | escape }} distance" aria-valuenow="{{ percent | at_most: 100 }}" aria-valuemin="0" aria-valuemax="100" aria-valuetext="{{ longest }} of {{ challenge.goal_distance_km }} km" style="width: 100%; height: 20px; background: #e2e8f0; border-radius: 10px; overflow: hidden;">
+  <div style="width: {{ percent | at_most: 100 }}%; height: 100%; background: #0969da;"></div>
+</div>
 
 {% else %}
 

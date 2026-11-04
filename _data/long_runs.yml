@@ -1,0 +1,142 @@
+# Long runs that built the single-run distance toward a half marathon, then a full marathon.
+# Listed in chronological order. The November 3 entry is the logged half marathon.
+- date: 2026-05-16
+  time: "07:23"
+  title: Morning Run
+  distance_km: 8.92
+  moving_time: "1:04:57"
+  average_pace: "7:17"
+  elevation_gain_m: 19
+  max_elevation_m: 30
+  steps: 9794
+  location: Xiangshan District, Hsinchu
+- date: 2026-05-24
+  time: "19:10"
+  title: Evening Run
+  distance_km: 10.21
+  moving_time: "1:10:24"
+  average_pace: "6:54"
+  elevation_gain_m: 26
+  max_elevation_m: 28
+  steps: 10600
+  location: Xiangshan District, Hsinchu
+  note: 3rd fastest mile, 12 seconds faster
+- date: 2026-05-28
+  time: "18:22"
+  title: Evening Run
+  distance_km: 10.28
+  moving_time: "1:16:09"
+  average_pace: "7:24"
+  elevation_gain_m: 35
+  max_elevation_m: 36
+  steps: 11452
+  location: Xiangshan District, Hsinchu
+  note: Fastest 10K of 2026, 25 seconds faster
+- date: 2026-05-30
+  time: "06:45"
+  title: Morning Run
+  distance_km: 10.21
+  moving_time: "1:11:00"
+  average_pace: "6:57"
+  elevation_gain_m: 26
+  max_elevation_m: 30
+  steps: 10910
+  location: Xiangshan District, Hsinchu
+  note: 3rd fastest 10K, 3 minutes 52 seconds faster
+- date: 2026-06-06
+  time: "05:45"
+  title: Morning Run
+  distance_km: 11.86
+  moving_time: "1:23:10"
+  average_pace: "7:01"
+  elevation_gain_m: 25
+  max_elevation_m: 28
+  steps: 12710
+  location: Xiangshan District, Hsinchu
+  note: 2nd fastest 10K, 52 seconds faster
+- date: 2026-06-13
+  time: "05:35"
+  title: Morning Run
+  distance_km: 13.55
+  moving_time: "1:40:33"
+  average_pace: "7:25"
+  elevation_gain_m: 31
+  max_elevation_m: 30
+  steps: 14946
+  location: Xiangshan District, Hsinchu
+  note: Longest run on Strava at the time
+- date: 2026-06-27
+  time: "10:58"
+  title: Morning Run
+  distance_km: 10.05
+  moving_time: "1:02:07"
+  average_pace: "6:11"
+  elevation_gain_m: 10
+  calories: 1162
+  average_heart_rate_bpm: 156
+  location: Xiangshan District, Hsinchu
+  note: A PB 10 km — fastest 10K ever, 5 minutes 23 seconds faster
+- date: 2026-06-28
+  time: "15:38"
+  title: Afternoon Run
+  distance_km: 12.84
+  moving_time: "1:45:15"
+  average_pace: "8:12"
+  elevation_gain_m: 31
+  calories: 1497
+  average_heart_rate_bpm: 150
+  location: Xiangshan District, Hsinchu
+- date: 2026-07-05
+  time: "04:24"
+  title: Longest run
+  distance_km: 14.05
+  moving_time: "1:46:19"
+  average_pace: "7:34"
+  elevation_gain_m: 44
+  calories: 1648
+  average_heart_rate_bpm: 138
+  location: Xiangshan District, Hsinchu
+  note: Longest run on Strava at the time
+- date: 2026-07-19
+  time: "04:26"
+  title: Longest run, so far!
+  distance_km: 15.09
+  moving_time: "1:56:11"
+  average_pace: "7:42"
+  elevation_gain_m: 32
+  calories: 1750
+  average_heart_rate_bpm: 139
+  location: Xiangshan District, Hsinchu
+  note: Fastest 15K ever
+- date: 2026-07-26
+  time: "04:35"
+  title: Morning Run
+  distance_km: 15.56
+  moving_time: "2:05:28"
+  average_pace: "8:04"
+  elevation_gain_m: 24
+  calories: 1799
+  average_heart_rate_bpm: 139
+  location: Xiangshan District, Hsinchu
+  note: 2nd fastest 15K
+- date: 2026-09-02
+  time: "03:14"
+  title: A birthday run
+  distance_km: 19.04
+  moving_time: "2:39:27"
+  average_pace: "8:22"
+  elevation_gain_m: 41
+  calories: 2206
+  average_heart_rate_bpm: 142
+  location: Xiangshan District, Hsinchu
+  note: Fastest 10 miles ever
+- date: 2026-11-03
+  time: "04:19"
+  title: First half marathon
+  distance_km: 21.36
+  moving_time: "2:30:48"
+  average_pace: "7:04"
+  elevation_gain_m: 41
+  location: Xiangshan District, Hsinchu
+  note: First time past 21.1 km
+  url: /challenges/100-days-of-running/day-51/
