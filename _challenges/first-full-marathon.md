@@ -32,47 +32,25 @@ In progress. The longest single run so far is **{{ longest }} km** on November 3
 
 These are the same long runs, in chronological order. Each row keeps the distance reached so far, including the runs that did not set a new longest. The half-marathon result is one point on this line, not the whole story.
 
-<table>
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Run</th>
-      <th>Distance</th>
-      <th>Moving time</th>
-      <th>Avg pace</th>
-      <th>Elevation</th>
-      <th>Max elevation</th>
-      <th>Steps</th>
-      <th>Calories</th>
-      <th>Avg heart rate</th>
-      <th>Longest so far</th>
-      <th>Note</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% assign longest_so_far = 0 %}
-    {% for run in runs %}
-    {% assign previous_longest = longest_so_far %}
-    {% if run.distance_km > longest_so_far %}
-    {% assign longest_so_far = run.distance_km %}
-    {% endif %}
-    {% assign share = longest_so_far | times: 100.0 | divided_by: page.goal_distance_km | round: 1 %}
-    <tr>
-      <td>{{ run.date | date: "%b %d, %Y" }} · {{ run.time }}</td>
-      <td>{% if run.url %}<a href="{{ run.url | relative_url }}">{{ run.title }}</a>{% else %}{{ run.title }}{% endif %}</td>
-      <td>{{ run.distance_km }} km</td>
-      <td>{{ run.moving_time }}</td>
-      <td>{{ run.average_pace }} /km</td>
-      <td>{{ run.elevation_gain_m }} m</td>
-      <td>{% if run.max_elevation_m %}{{ run.max_elevation_m }} m{% else %}—{% endif %}</td>
-      <td>{% if run.steps %}{{ run.steps }}{% else %}—{% endif %}</td>
-      <td>{% if run.calories %}{{ run.calories }} Cal{% else %}—{% endif %}</td>
-      <td>{% if run.average_heart_rate_bpm %}{{ run.average_heart_rate_bpm }} bpm{% else %}—{% endif %}</td>
-      <td>{{ longest_so_far }} km ({{ share }}%)</td>
-      <td>{% if run.distance_km > previous_longest %}New longest.{% endif %} {{ run.note }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<p>Each point is one recorded run. Hover or focus a point for its date, distance, pace, and title.</p>
+<svg viewBox="0 0 900 390" role="img" aria-labelledby="full-distance-title full-distance-description" style="width: 100%; height: auto;">
+  <title id="full-distance-title">Long-run distance by date</title>
+  <desc id="full-distance-description">Chronological recorded run distances from {{ runs.first.date | date: "%B %d, %Y" }} through {{ runs.last.date | date: "%B %d, %Y" }}.</desc>
+  <line x1="70" y1="35" x2="70" y2="320" stroke="#9aa8b5" />
+  <line x1="70" y1="320" x2="860" y2="320" stroke="#9aa8b5" />
+  <text x="62" y="325" text-anchor="end" fill="#596b7e" font-size="13">0 km</text>
+  <text x="62" y="42" text-anchor="end" fill="#596b7e" font-size="13">{{ page.goal_distance_km }} km</text>
+  {% assign point_count = runs.size | minus: 1 %}
+  {% capture distance_points %}{% for run in runs %}{% assign x = forloop.index0 | times: 790.0 | divided_by: point_count | plus: 70 %}{% assign y_offset = run.distance_km | times: 285.0 | divided_by: page.goal_distance_km %}{% assign y = 320 | minus: y_offset %}{{ x | round: 1 }},{{ y | round: 1 }}{% unless forloop.last %} {% endunless %}{% endfor %}{% endcapture %}
+  <polyline points="{{ distance_points | strip }}" fill="none" stroke="#175b96" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+  {% for run in runs %}
+  {% assign x = forloop.index0 | times: 790.0 | divided_by: point_count | plus: 70 %}{% assign y_offset = run.distance_km | times: 285.0 | divided_by: page.goal_distance_km %}{% assign y = 320 | minus: y_offset %}
+  <circle cx="{{ x | round: 1 }}" cy="{{ y | round: 1 }}" r="6" fill="#175b96" tabindex="0"><title>{{ run.date | date: "%b %d, %Y" }}: {{ run.distance_km }} km · {{ run.average_pace }} /km · {{ run.title }}</title></circle>
+  {% endfor %}
+  <text x="70" y="350" fill="#596b7e" font-size="13">{{ runs.first.date | date: "%b %d, %Y" }}</text>
+  <text x="860" y="350" text-anchor="end" fill="#596b7e" font-size="13">{{ runs.last.date | date: "%b %d, %Y" }}</text>
+  <text x="465" y="380" text-anchor="middle" fill="#596b7e" font-size="13">Date</text>
+  <text x="16" y="180" text-anchor="middle" fill="#596b7e" font-size="13" transform="rotate(-90 16 180)">Distance (km)</text>
+</svg>
 
 [← Back to all challenges]({{ '/challenges/' | relative_url }})
